@@ -1,0 +1,51 @@
+What is web Services?
+	A web service is any piece of software that makes itself available over the internet and uses a 	standardized XML messaging system.
+
+RESTful Web Service?
+	Rest stands for Representational State Transfer
+	REST is an architecture style not a protocol.
+
+Advantages Of Rest Services
+	Fast
+	Language and Platform Independent
+	Permits differenet data format like plain text,html,xml and JSON also
+
+SOA(Service Oriented Architecture)
+
+In Rest Services:
+	There are different HTTP Methods that we used:(CRUD)
+		GET:-For retriving the data:Read
+		POST:-For creating the data:Create
+		PUT:-For updating the data:Update
+		DELETE:-For deleting the data:Delete
+
+As we are using browser and browser only supports Get method so to call Rest web service to perform CRUD operation we use a client as POSTMAN instead of simple browser.
+
+HTTP Status Code:
+	1xx : Informational
+	2xx : Success
+	3xx : Redirection
+	4xx : Clent Error
+	5xx : Server Error
+
+-------------------------------------------------------------------------------------
+What is Spring Boot:
+Why Spring BOOT?
+
+When you are creating SpringBoot Application it creates a application class with main method which class annotated as @SpringBootApplication
+
+which means
+1.@Configuration
+2.@EnableAutoConfiguration
+3.@ComponentScan
+
+Spring Boot starter parent POM allows us to manage the modules and multiple child project.
+
+@RestController
+
+1.@Controller
+2.@ResponseBody
+
+
+
+
